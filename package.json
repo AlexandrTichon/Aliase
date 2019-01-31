@@ -1,0 +1,56 @@
+{
+  "name": "aliase",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Web app that is the clone of the famous game \"Aliase\"",
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-scripts": "2.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "./node_modules/.bin/eslint src/",
+    "fix-lint": "./node_modules/.bin/eslint src/ --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandrTichon/Aliase.git"
+  },
+  "keywords": [
+    "Aliase",
+    "aliase",
+    "game",
+    "cards"
+  ],
+  "author": "Alexandr Tichon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexandrTichon/Aliase/issues"
+  },
+  "homepage": "https://github.com/AlexandrTichon/Aliase#readme",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "css-loader": "^2.1.0",
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
+    "eslint-plugin-react": "^7.12.4",
+    "husky": "^1.3.1",
+    "url-loader": "^1.1.2"
+  }
+}

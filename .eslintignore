@@ -1,0 +1,5 @@
+#Config files
+/src/serviceWorker.js
+
+# Ignore built files
+public/*
